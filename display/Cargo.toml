@@ -33,6 +33,7 @@ esp-idf-sys = { version = "0.33", default-features = false }
 esp-idf-hal = { version = "0.41", optional = true, default-features = false }
 esp-idf-svc = { version = "0.46", optional = true, default-features = false }
 embedded-svc = { version = "0.25", optional = true, default-features = false }
+embedded-hal = "0.2.7"
 display-interface-spi = "0.4.1"
 mipidsi = "0.7.1"
 embedded-graphics = "0.8.1"
