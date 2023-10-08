@@ -21,3 +21,4 @@ $ espflash flash /target/xtensa-esp-espidf/debug/your-project-name
 ## Examples
 
 - [Display](./display/)
+- [Button](./button/)
