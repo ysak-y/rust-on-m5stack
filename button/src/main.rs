@@ -3,12 +3,12 @@ use std::{thread, time::Duration};
 
 macro_rules! process_button {
     ($pin:expr, $prev_state:expr, $button_name:expr) => {
-        // Print text if button A is low (= pressed) and was not low (= not pressed) in the previous iteration.
         if $pin.is_low() && !$prev_state {
+            // Print text if button is low (= pressed) and was not low (= not pressed) in the previous iteration.
             println!("Button {} pressed", $button_name);
             $prev_state = true;
-        // Set prev_btn_a_is_low to false if button A is high (= not pressed) and was low (= pressed) in the previous iteration.
         } else if $pin.is_high() && $prev_state {
+            // Set prev_state to false if button is high (= not pressed) and was low (= pressed) in the previous iteration.
             $prev_state = false;
         }
     };
