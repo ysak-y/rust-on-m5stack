@@ -1,3 +1,5 @@
+// TODO Implement 3-Axis Geomagnetic (BMM150)
+
 use esp_idf_hal::delay::FreeRtos;
 use esp_idf_hal::i2c::*;
 use esp_idf_hal::peripherals::Peripherals;
