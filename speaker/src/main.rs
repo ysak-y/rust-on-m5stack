@@ -33,7 +33,12 @@ fn main() {
     for numerator in [1, 2, 3].iter().cycle() {
         println!("Duty: {}", numerator);
 
+        // Beep
         channel.set_duty(*numerator).unwrap();
+        FreeRtos::delay_ms(500);
+
+        // Stop beep
+        channel.set_duty(0).unwrap();
         FreeRtos::delay_ms(2000);
     }
 }
