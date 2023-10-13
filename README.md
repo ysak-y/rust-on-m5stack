@@ -24,3 +24,4 @@ $ espflash flash /target/xtensa-esp-espidf/debug/your-project-name
 - [Button](./button/)
 - [SDCard](./sdcard/)
 - [IMU](./imu/)
+- [Speaker](./speaker/)
