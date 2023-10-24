@@ -7,11 +7,11 @@ I use [M5Stack GRAY](https://docs.m5stack.com/en/core/gray) to run firmware, may
 
 ## espup
 
-This firmware is witten in Rust. You need to install `espup`. first. Please follow this document https://github.com/esp-rs/rust-build .
+This firmware is witten in Rust. You need to install `espup` first. Please follow this document https://github.com/esp-rs/rust-build .
 
 ## espflash
 
-You can write firmware by using [espflash](https://github.com/esp-rs/espflash).
+You can flash firmware by using [espflash](https://github.com/esp-rs/espflash).
 
 ```sh
 $ cargo build
